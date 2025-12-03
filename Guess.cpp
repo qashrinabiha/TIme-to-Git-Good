@@ -8,7 +8,7 @@ int main() {
     cout << "=== Welcome to the Number Guessing Game! ===\n";
 
     srand(time(0));
-    int number = rand() % (MAX - MIN + MIN);
+    int number = rand() % (MAX - MIN);
 
     int guess, attempts = 0;
 
